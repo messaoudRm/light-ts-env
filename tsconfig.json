@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                // Définit la version JavaScript cible
+      "module": "CommonJS",              // Utilisation de CommonJS pour les modules
+      "strict": true,                    // Mode strict pour vérifier les types
+      "esModuleInterop": true,           // Support des modules ES6 et CommonJS
+      "skipLibCheck": true,              // Ignore la vérification des bibliothèques externes
+      "outDir": "./dist",                // Dossier pour les fichiers compilés (si besoin)
+      "baseUrl": ".",                    // Répertoire de base
+      "paths": {                         // Gestion des chemins des modules
+        "*": ["node_modules/*"]
+      }
+    },
+    "include": [
+      "ts/**/*.ts"                       // Inclure tous les fichiers .ts sous le répertoire ts
+    ]
+  }
