@@ -64,9 +64,25 @@ ts-node file1.ts
 /home/toto/ts/
 │
 └── src/
-    ├── file1.ts       # Fichier TypeScript vide
+    ├── file1.ts       # Fichier TypeScript contenant "console.log('Hello World from TypeScript');"
     └── tsconfig.json  # Configuration TypeScript
 ```
+
+---
+
+## 📊 Taille de l'image et du conteneur
+
+### Taille de l'image Docker (`ts-slim`)
+
+- **Taille** : 228MB  
+  Cette taille correspond à la quantité d'espace disque utilisée par l'image Docker `ts-slim` que tu as construite.
+
+### Taille du conteneur Docker
+
+- **Taille réelle** : 2.32MB  
+  Cela correspond à l'espace disque utilisé actuellement par le conteneur en cours d'exécution.
+- **Taille virtuelle** : 231MB  
+  La "taille virtuelle" inclut les couches partagées avec l'image, donc l'ensemble des données du conteneur (image + modifications).
 
 ---
 
