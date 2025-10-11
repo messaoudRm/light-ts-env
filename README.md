@@ -5,6 +5,16 @@ Il permet de compiler et d'exécuter facilement du code `.ts` dans un conteneur 
 
 ---
 
+## Image Docker
+
+**Lien direct vers l’image sur Docker Hub :** [ts-slim](https://hub.docker.com/r/mess09/ts-slim)
+
+### Pull de l’image à partir de Docker Hub
+
+```bash
+docker pull mess09/ts-slim
+```
+
 ## 📦 Contenu du Dockerfile
 
 - Basé sur `node:20-slim`
@@ -26,7 +36,7 @@ Il permet de compiler et d'exécuter facilement du code `.ts` dans un conteneur 
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/ton_pseudo/light-ts-env.git
+git clone https://github.com/messaoudRm/light-ts-env.git
 cd light-ts-env
 ```
 
